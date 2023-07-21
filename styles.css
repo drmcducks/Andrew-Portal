@@ -1,0 +1,60 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #202020;
+}
+.title{
+  cursor: pointer;
+}
+.wrapper {
+  width: 60%;
+  padding: 3%;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+.llinks a {
+  background-color: aqua;
+}
+img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+h1 {
+  font-size: 3.8em;
+  font-weight: bold;
+}
+h3,
+p {
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+a:link {
+  text-decoration: none;
+  color: #202020;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #202020;
+}
+a:hover { text-decoration: none; }
+
+a:active {
+  text-decoration: none;
+  color: #202020;
+}
+
+.llinks{
+  font-size: 1.2em;
+}
+.ssocialicons{
+  margin-top: 30px;
+}
+.footer {
+  text-align: center;
+  margin-top: 148px;
+}
