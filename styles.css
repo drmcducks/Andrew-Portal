@@ -1,8 +1,9 @@
+
 body {
   font-family: 'Rubik', sans-serif;
   color: #202020;
 }
-.title{
+.title {
   cursor: pointer;
 }
 .wrapper {
@@ -12,6 +13,7 @@ body {
   margin: auto;
   position: relative;
 }
+
 .llinks a {
   background-color: aqua;
 }
@@ -36,22 +38,23 @@ a:link {
   text-decoration: none;
   color: #202020;
 }
-
 a:visited {
   text-decoration: none;
   color: #202020;
 }
-a:hover { text-decoration: none; }
+a:hover {
+  text-decoration: none;
+}
 
 a:active {
   text-decoration: none;
   color: #202020;
 }
 
-.llinks{
+.llinks {
   font-size: 1.2em;
 }
-.ssocialicons{
+.ssocialicons {
   margin-top: 30px;
 }
 .footer {
