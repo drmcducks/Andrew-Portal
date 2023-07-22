@@ -15,8 +15,26 @@ body {
 }
 
 .llinks a {
-  background-color: aqua;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #202020;
+
 }
+.llinks a::before {
+  content: ".";
+  position: absolute;
+  background-color: #5fb9ee;
+  width: 0;
+  height: fit-content;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.llinks a:hover:before {
+  width:165px;
+}
+
 img {
   width: 40%;
   height: auto;
@@ -56,6 +74,9 @@ a:active {
 }
 .ssocialicons {
   margin-top: 30px;
+}
+.ssocialicons a:hover{
+  color: #5fb9ee;
 }
 .footer {
   text-align: center;
